@@ -1,0 +1,22 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+
+    .logo,
+    .main-nav {
+        display: inline-block;
+    }
+
+    .main-nav {
+        .nav-item {
+            display: none;
+        }
+
+        .nav-burger {
+            color: $l-dark;
+            font-size: 24px;
+            padding-top: 0.5rem;
+        }
+    }
+}

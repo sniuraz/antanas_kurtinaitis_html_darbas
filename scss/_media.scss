@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    // Header
+    .header .container {
+        margin: 70px 5rem;
+        .main-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 367px;
+
+            .nav-item {
+                display: inline-block;
+                font-size: 1.25rem;
+                padding-top: 0.5rem;
+                color: $dark-2;
+            }
+
+            .sign {
+                color: $active;
+            }
+
+            .nav-burger {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    // Header
+    .header .container {
+        margin: 70px auto;
+    }
+}
