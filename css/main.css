@@ -128,6 +128,18 @@ p {
   padding-bottom: 1rem;
 }
 
+.press {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 3.3rem;
+  padding-bottom: 2.6rem;
+}
+.press .img {
+  color: #999999;
+  padding: 0.9rem 0;
+}
+
 @media screen and (min-width: 768px) {
   .section {
     margin: 0 5rem;
