@@ -1,7 +1,11 @@
 @media screen and (min-width: 768px) {
+    @import "media-common";
     // Header
     .header .container {
-        margin: 70px 5rem;
+        // margin: 70px 0;
+        margin-top: 70px;
+        // padding-top: 70px;
+        // margin-bottom: 70px;
         .main-nav {
             display: flex;
             justify-content: space-between;
@@ -22,12 +26,5 @@
                 display: none;
             }
         }
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    // Header
-    .header .container {
-        margin: 70px auto;
     }
 }

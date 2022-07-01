@@ -1,0 +1,54 @@
+.hero.section {
+    padding-right: 0;
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 61% auto;
+    gap: 1rem;
+
+    .text {
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+
+        .subtitle {
+            color: $active;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 0.95;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .title {
+            color: $dark-1;
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 58px;
+            margin: 24px 0;
+        }
+
+        p {
+            padding-right: 2px;
+        }
+    }
+
+    .bg-img {
+        background-image: url(/img/graphic.svg);
+        background-repeat: no-repeat;
+        background-position: -40px -35px;
+        background-size: auto 100%;
+    }
+
+    .btn {
+        display: inline-block;
+        width: 188px;
+        height: 75px;
+        border: 5px solid red;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+    }
+}

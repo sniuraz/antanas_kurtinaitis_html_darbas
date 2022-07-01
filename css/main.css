@@ -1,10 +1,21 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -22,6 +33,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.section {
+  padding: 0 2rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #111111;
+}
+
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -30,7 +51,7 @@ body {
 .header .container {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 2rem;
+  margin: 2rem 0;
 }
 .header .container .logo,
 .header .container .main-nav {
@@ -41,13 +62,79 @@ body {
 }
 .header .container .main-nav .nav-burger {
   color: #999999;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-top: 0.5rem;
 }
 
+.hero.section {
+  padding-right: 0;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 61% auto;
+  gap: 1rem;
+}
+.hero .container .text {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+.hero .container .text .subtitle {
+  color: #ff3998;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero .container .text .title {
+  color: #111111;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 58px;
+  margin: 24px 0;
+}
+.hero .container .text p {
+  padding-right: 2px;
+}
+.hero .container .bg-img {
+  background-image: url(/img/graphic.svg);
+  background-repeat: no-repeat;
+  background-position: -40px -35px;
+  background-size: auto 100%;
+}
+.hero .container .btn {
+  display: inline-block;
+  width: 188px;
+  height: 75px;
+  border: 5px solid red;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.upsell {
+  padding-top: 7.625rem;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(to right, #ff7d76, #d3cca2);
+}
+.upsell .title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: .upsell .title dark-1;
+  padding-bottom: 1rem;
+}
+
 @media screen and (min-width: 768px) {
+  .section {
+    margin: 0 5rem;
+  }
+
   .header .container {
-    margin: 70px 5rem;
+    margin-top: 70px;
   }
   .header .container .main-nav {
     display: flex;
@@ -65,10 +152,5 @@ body {
   }
   .header .container .main-nav .nav-burger {
     display: none;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .header .container {
-    margin: 70px auto;
   }
 }/*# sourceMappingURL=main.css.map */
