@@ -100,7 +100,7 @@ p {
 .hero .container .bg-img {
   background-image: url(/img/graphic.svg);
   background-repeat: no-repeat;
-  background-position: -40px -35px;
+  background-position: -110px -55px;
   background-size: auto 100%;
 }
 .hero .container .btn {
@@ -130,7 +130,7 @@ p {
 
 .press {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 3.3rem;
   padding-bottom: 2.6rem;
@@ -138,6 +138,76 @@ p {
 .press .img {
   color: #999999;
   padding: 0.9rem 0;
+}
+
+.showcase .title {
+  padding-bottom: 1rem;
+  color: #111111;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.showcase .subtitle {
+  padding-bottom: 2.5rem;
+  color: #555555;
+}
+.showcase .cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase .cards-container .card {
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+.showcase .cards-container .card .text {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.showcase .cards-container .card .text .text1 {
+  text-align: left;
+}
+.showcase .cards-container .card .text .text1 h4 {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ff8139;
+}
+.showcase .cards-container .card .text .text1 h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111111;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.showcase .cards-container .card .text .text1 p {
+  font-size: 18px;
+  color: #777777;
+}
+.showcase .cards-container .card .text .text2 {
+  text-align: right;
+}
+.showcase .cards-container .card .text .text2 h4 {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #777777;
+}
+.showcase .cards-container .card .text .text2 h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #111111;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.showcase .cards-container .card .text .text2 p {
+  font-size: 18px;
+  color: #777777;
+}
+.showcase .cards-container .card2,
+.showcase .cards-container .card3,
+.showcase .cards-container .card4 {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
