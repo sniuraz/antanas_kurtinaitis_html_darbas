@@ -1,0 +1,32 @@
+@media screen and (min-width: 1280px) {
+    .header .container {
+        padding: 70px 32px 182px;
+
+        .main-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 367px;
+
+            .nav-item {
+                display: inline-block;
+                font-size: 20px;
+                padding-top: 8px;
+                color: $dark-2;
+            }
+
+            .sign {
+                color: $active;
+            }
+
+            .nav-burger {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1344px) {
+    .header .container {
+        padding: 70px 0 182px;
+    }
+}

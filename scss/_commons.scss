@@ -8,8 +8,9 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.section {
-    padding: 0 2rem;
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 p {
@@ -18,7 +19,23 @@ p {
     color: $dark-1;
 }
 
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
+.r-subtitle {
+    color: $active;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    width: 188px;
+    height: 75px;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 32px 0;
 }

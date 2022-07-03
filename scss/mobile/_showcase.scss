@@ -1,22 +1,32 @@
-.showcase {
+.showcase .container {
+    padding-left: 32px;
+    padding-bottom: 92px;
+
     .title {
-        padding-bottom: 1rem;
+        padding-bottom: 16px;
         color: $dark-1;
-        font-size: 2.5rem;
+        font-size: 40px;
         font-weight: 500;
         line-height: 1.2;
     }
 
     .subtitle {
-        padding-bottom: 2.5rem;
+        padding-bottom: 40px;
         color: $dark-2;
+
+        a {
+            border-bottom: 2px solid $dark-2;
+        }
     }
 
     .cards-container {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+        overflow: auto;
 
         .card {
+            width: 290px;
             background-color: #eeeeee;
             border-radius: 20px;
 
@@ -36,7 +46,7 @@
                     }
 
                     h3 {
-                        font-size: 1.25rem;
+                        font-size: 20px;
                         font-weight: 500;
                         color: $dark-1;
                         padding-top: 12px;
@@ -60,11 +70,16 @@
                     }
 
                     h3 {
-                        font-size: 1.25rem;
+                        font-size: 20px;
                         font-weight: 500;
                         color: $dark-1;
                         padding-top: 12px;
                         padding-bottom: 12px;
+
+                        background: url(/img/eth.svg);
+                        background-repeat: no-repeat;
+                        padding-left: 24px;
+                        background-position: 0 13px;
                     }
 
                     p {
@@ -73,12 +88,6 @@
                     }
                 }
             }
-        }
-
-        .card2,
-        .card3,
-        .card4 {
-            display: none;
         }
     }
 }

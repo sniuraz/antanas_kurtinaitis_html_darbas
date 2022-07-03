@@ -1,30 +1,6 @@
-@media screen and (min-width: 768px) {
-    @import "media-common";
-    // Header
-    .header .container {
-        // margin: 70px 0;
-        margin-top: 70px;
-        // padding-top: 70px;
-        // margin-bottom: 70px;
-        .main-nav {
-            display: flex;
-            justify-content: space-between;
-            width: 367px;
-
-            .nav-item {
-                display: inline-block;
-                font-size: 1.25rem;
-                padding-top: 0.5rem;
-                color: $dark-2;
-            }
-
-            .sign {
-                color: $active;
-            }
-
-            .nav-burger {
-                display: none;
-            }
-        }
-    }
-}
+@import "desktop/header";
+@import "desktop/hero";
+@import "desktop/press";
+@import "desktop/showcase";
+@import "desktop/footer-upsell";
+@import "desktop/footer";

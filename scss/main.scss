@@ -1,10 +1,12 @@
 @import "reset";
 @import "vars";
 @import "commons";
-@import "mf/header";
-@import "mf/hero";
-@import "mf/upsell";
-@import "mf/press";
-@import "mf/showcase";
+@import "mobile/header";
+@import "mobile/hero";
+@import "mobile/upsell";
+@import "mobile/press";
+@import "mobile/showcase";
+@import "mobile/footer-upsell";
+@import "mobile/footer";
 
 @import "media";

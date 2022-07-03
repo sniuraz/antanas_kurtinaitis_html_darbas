@@ -1,0 +1,21 @@
+.press .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 64px 28px 56px;
+
+    .img {
+        color: $dark-4;
+        padding: 16px 0;
+        position: relative;
+    }
+
+    .boom {
+        display: block;
+        position: absolute;
+        background-color: #ffffff;
+        width: 68px;
+        height: 60px;
+        left: 34%;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,29 @@
+@media screen and (min-width: 710px) {
+    .hero .container {
+        .text {
+            .title {
+                font-size: 76px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero .container {
+        .text {
+            .title {
+                font-size: 96px;
+                line-height: 116px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1344px) {
+    .hero .container {
+        .text {
+            padding-left: 0;
+        }
+    }
+}

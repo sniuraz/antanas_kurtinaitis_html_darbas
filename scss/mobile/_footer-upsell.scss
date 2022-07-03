@@ -1,0 +1,32 @@
+.footer-upsell .container {
+    border-top: 2px solid #eeeeee;
+    padding: 64px 32px 34px;
+
+    position: relative;
+    overflow: hidden;
+
+    .text {
+        width: 57%;
+        max-width: 570px;
+
+        .title {
+            color: $dark-1;
+            font-size: 56px;
+            font-weight: 900;
+            line-height: 68px;
+            margin: 24px 0;
+        }
+
+        p {
+            padding-right: 2px;
+        }
+    }
+
+    .bg-img {
+        position: absolute;
+        bottom: 0;
+        left: 60%;
+        width: 100%;
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,30 @@
+.hero .container {
+    position: relative;
+    overflow: hidden;
+
+    .text {
+        padding: 42px 0px 80px 32px;
+        width: 72%;
+        max-width: 572px;
+
+        .title {
+            color: $dark-1;
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 58px;
+            margin: 24px 0;
+        }
+
+        p {
+            padding-right: 2px;
+        }
+    }
+
+    .bg-img {
+        position: absolute;
+        top: -9%;
+        left: 48%;
+        width: 100%;
+        max-width: 700px;
+    }
+}
