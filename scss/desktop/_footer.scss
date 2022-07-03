@@ -30,27 +30,7 @@
     .footer .container {
         padding: 120px 32px 71px;
         .top {
-            display: grid;
             grid-template-columns: 1fr 1fr;
-
-            .right {
-                grid-template-columns: repeat(4, 1fr);
-                padding-top: 0;
-            }
-        }
-
-        .bottom {
-            .copyright {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-content: space-between;
-                padding-top: 104px;
-
-                .right {
-                    display: inline-block;
-                    text-align: right;
-                }
-            }
         }
     }
 }
